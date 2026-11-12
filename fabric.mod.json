@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "kotoba_client",
+  "version": "${version}",
+  "name": "Kotoba Client",
+  "description": "Client-side translation helper for incoming English chat and server messages.",
+  "environment": "client",
+  "entrypoints": { "client": ["jp.kotoba.client.KotobaClient"] },
+  "mixins": [{ "config": "kotoba-client.client.mixins.json", "environment": "client" }],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
