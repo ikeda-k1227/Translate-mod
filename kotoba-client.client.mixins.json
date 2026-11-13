@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "jp.kotoba.client.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ObjectiveMixin",
+    "EntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
