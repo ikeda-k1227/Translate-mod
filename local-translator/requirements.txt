@@ -1,0 +1,2 @@
+argostranslate==1.11.1
+numpy==1.26.4

@@ -1,0 +1,5 @@
+/scoreboard objectives add test dummy "Test Board"
+/scoreboard objectives setdisplay sidebar test
+/summon minecraft:armor_stand ~ ~1 ~ {CustomName:"Hello Hologram",CustomNameVisible:1b}
+/data get entity @e[type=minecraft:armor_stand,limit=1,sort=nearest] CustomName
+/say Hello, how are you?
